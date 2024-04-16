@@ -91,6 +91,8 @@ int main() {
     inorder(root);
     printf("\n");
 
+  
+    
     // Deleting element 45 from the Splay Tree
     root = splayDelete(root, 45);
 
@@ -98,6 +100,13 @@ int main() {
     printf("Inorder traversal of the Splay Tree after deletion: ");
     inorder(root);
     printf("\n");
+
+  
+
+
+
+
+
 
     return 0;
 }

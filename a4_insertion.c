@@ -87,7 +87,7 @@ void inorder(struct Node* root) {
 int main() {
     struct Node* root = NULL;
 
-    // 20, 10, 30, 40, 45, 56, 70
+
     root = splayInsert(root, 20);
     root = splayInsert(root, 10);
     root = splayInsert(root, 30);
@@ -95,6 +95,7 @@ int main() {
     root = splayInsert(root, 45);
     root = splayInsert(root, 56);
     root = splayInsert(root, 70);
+
 
     printf("Inorder traversal of the Splay Tree after insertion: ");
     inorder(root);
